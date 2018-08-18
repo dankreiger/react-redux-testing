@@ -1,8 +1,8 @@
 {
   "name": "testing",
   "version": "0.1.0",
-  "homepage": "https://dankreiger.github.io/react-redux-testing/",
   "private": true,
+  "homepage": "https://dankreiger.github.io/react-redux-testing/",
   "dependencies": {
     "axios": "0.18.0",
     "react": "^16.4.2",
