@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import CommentBox from 'components/CommentBox';
-import Root from 'Root';
+import CommentBox from './../CommentBox';
+import Root from './../../Root';
 
 describe('CommentBox', () => {
   let wrapped;
