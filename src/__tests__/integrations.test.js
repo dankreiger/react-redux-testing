@@ -7,7 +7,7 @@ import App from './../components/App';
 
 beforeEach(() => {
   moxios.install();
-  moxios.stubRequest('http://jsonplaceholder.typicode.com/comments', {
+  moxios.stubRequest('https://jsonplaceholder.typicode.com/comments', {
     status: 200,
     response: [{ name: 'Lorem Ipsum #1' }, { name: 'Und so weiter #2' }]
   });
